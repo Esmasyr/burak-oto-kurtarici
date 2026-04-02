@@ -1,4 +1,4 @@
-\# Burak Oto Kurtarıcı
+&#x20;Burak Oto Kurtarıcı
 
 
 
@@ -6,7 +6,7 @@ Burak Oto Kurtarıcı, yolda kalan araçlar için hızlı ve güvenilir oto kurt
 
 
 
-\## Proje Hakkında
+\- Proje Hakkında
 
 
 
@@ -14,7 +14,7 @@ Bu proje, kullanıcıların ihtiyaç duydukları anda oto kurtarma hizmetine kol
 
 
 
-\## Özellikler
+\- Özellikler
 
 
 
@@ -26,7 +26,7 @@ Bu proje, kullanıcıların ihtiyaç duydukları anda oto kurtarma hizmetine kol
 
 
 
-\## Kullanılan Teknolojiler
+\- Kullanılan Teknolojiler
 
 
 
@@ -38,7 +38,7 @@ Bu proje, kullanıcıların ihtiyaç duydukları anda oto kurtarma hizmetine kol
 
 
 
-\## Kurulum
+\- Kurulum
 
 
 
@@ -50,7 +50,7 @@ git clone https://github.com/Esmasyr/burak-oto-kurtarici.git
 
 
 
-\## Lisans
+\-Lisans
 
 
 
@@ -58,7 +58,7 @@ Bu proje kişisel kullanım amacıyla geliştirilmiştir.
 
 
 
-\## Ekran Görüntüleri
+\- Ekran Görüntüleri
 
 <p align="center">
 
