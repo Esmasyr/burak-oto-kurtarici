@@ -58,3 +58,15 @@ Bu proje kişisel kullanım amacıyla geliştirilmiştir.
 
 
 
+\## Ekran Görüntüleri
+
+
+
+!\[Ana Sayfa](screenshot1.png)
+
+!\[Hizmetler](screenshot2.png)
+
+!\[İletişim](screenshot3.png)
+
+
+
