@@ -60,13 +60,15 @@ Bu proje kişisel kullanım amacıyla geliştirilmiştir.
 
 \## Ekran Görüntüleri
 
+<p align="center">
 
+&#x20; <img src="screenshot1.png" width="30%">
 
-!\[Ana Sayfa](screenshot1.png)
+&#x20; <img src="screenshot2.png" width="30%">
 
-!\[Hizmetler](screenshot2.png)
+&#x20; <img src="screenshot3.png" width="30%">
 
-!\[İletişim](screenshot3.png)
+</p>
 
 
 
