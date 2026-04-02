@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Burak Oto Kurtarma — Van'da 7/24 profesyonel araç çekici ve kurtarma hizmeti. 0542 603 90 32" />
+  <title>Burak Oto Kurtarma | Van — 7/24 Çekici</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#1c2b4a"/><path d="M6 22h1.5M24.5 22H26M8 14l2-5h12l2 5M6 22v-6.5L8 14h16l2 .5V22M10 22a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm16 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" stroke="#c8a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-main">Burak Oto Kurtarma</span>
+          <span class="logo-sub">Çekici · Van</span>
+        </div>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hizmet">Hizmet</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+905426039032" class="nav-cta">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        0542 603 90 32
+      </a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-slider">
+      <div class="hero-slide active">
+        <img src="images/arac2.jpg" alt="Burak Oto Kurtarma Çekici" />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-slide">
+        <img src="images/arac1.jpg" alt="Burak Oto Kurtarma" />
+        <div class="hero-overlay"></div>
+      </div>
+    </div>
+    <div class="hero-dots">
+      <button class="hdot active" onclick="goSlide(0)"></button>
+      <button class="hdot" onclick="goSlide(1)"></button>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-tag">Van — 7/24 Profesyonel Çekici</div>
+      <h1>Aracınız Yolda<br>Kaldığında<br><span>Yanınızdayız</span></h1>
+      <p>Van ve çevresinde profesyonel araç kurtarma ve çekici hizmeti.<br>Ortalama 30 dakikada olay yerindeyiz.</p>
+      <div class="hero-btns">
+        <a href="tel:+905426039032" class="btn-call">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Hemen Ara — 0542 603 90 32
+        </a>
+        <a href="https://wa.me/905426039032?text=Merhaba%2C%20ara%C3%A7%20kurtarma%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-wa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><strong>30 dk</strong><span>Ortalama varış</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><strong>7/24</strong><span>Aktif hizmet</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><strong>Sigortalı</strong><span>Güvenli taşıma</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HİZMET -->
+  <section class="section" id="hizmet">
+    <div class="container">
+      <div class="section-header">
+        <span class="sec-tag">Hizmetimiz</span>
+        <h2>Araç Kurtarma<br>ve Çekicilik</h2>
+        <p>Van ve çevresinde her türlü araç kurtarma ve çekici hizmetini profesyonelce sunuyoruz.</p>
+      </div>
+      <div class="hizmet-grid">
+        <div class="hcard">
+          <div class="hcard-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M1 17h2M21 17h2M3 17V9.5L5 5h14l2 4.5V17M7 17a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Araç Çekimi</h3>
+          <p>Arıza veya kaza sonrası aracınızı istediğiniz noktaya güvenle ve hasarsız taşıyoruz.</p>
+        </div>
+        <div class="hcard">
+          <div class="hcard-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M12 9v4M12 17h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Kaza Kurtarma</h3>
+          <p>Kaza sonrası acil müdahale ve hasarlı araç kurtarma hizmetinde hızla yanınızdayız.</p>
+        </div>
+        <div class="hcard">
+          <div class="hcard-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>7/24 Acil Servis</h3>
+          <p>Gece gündüz, hafta sonu dahil her an arayabilirsiniz. Ortalama 30 dakikada olay yerindeyiz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HAKKIMIZDA -->
+  <section class="section section-dark" id="hakkimizda">
+    <div class="container about-grid">
+      <div class="about-left">
+        <span class="sec-tag">Hakkımızda</span>
+        <h2>Güvenilir,<br>Hızlı, Profesyonel</h2>
+        <p>Van ve çevresinde araç kurtarma ve çekicilik hizmetinde güvenilir adres. Eğitimli ekibimiz ve modern çekici aracımızla her durumda yanınızdayız.</p>
+        <p>Her müdahalede şeffaf fiyat, sigortalı taşıma ve müşteri memnuniyeti önceliğimizdir.</p>
+        <ul class="about-list">
+          <li>Sigortalı araç taşıma</li>
+          <li>Deneyimli ve sertifikalı ekip</li>
+          <li>Şeffaf ve net fiyatlandırma</li>
+          <li>Van ve çevre illere hizmet</li>
+        </ul>
+        <a href="tel:+905426039032" class="btn-call" style="margin-top:28px;display:inline-flex">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Hemen Ara
+        </a>
+      </div>
+      <div class="about-right">
+        <img src="images/arac2.jpg" alt="Burak Oto Kurtarma" class="about-img" />
+        <img src="images/arac1.jpg" alt="Burak Oto Kurtarma" class="about-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- İLETİŞİM -->
+  <section class="section" id="iletisim">
+    <div class="container">
+      <div class="section-header center">
+        <span class="sec-tag">İletişim</span>
+        <h2>Bize Ulaşın</h2>
+        <p>Telefon, WhatsApp veya formu kullanarak bize ulaşabilirsiniz.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="tel:+905426039032" class="cinfo-card cinfo-call">
+            <div class="cinfo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div><strong>Telefon ile Ara</strong><span>0542 603 90 32</span></div>
+          </a>
+          <a href="https://wa.me/905426039032?text=Merhaba%2C%20ara%C3%A7%20kurtarma%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="cinfo-card cinfo-wp">
+            <div class="cinfo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </div>
+            <div><strong>WhatsApp</strong><span>Mesaj gönder</span></div>
+          </a>
+          <div class="cinfo-card cinfo-loc">
+            <div class="cinfo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <div><strong>Konum</strong><span>Van, Türkiye</span></div>
+          </div>
+          <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96621!2d43.3800!3d38.4891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40177c1a52a79b01%3A0x0!2sVan%2C+Turkey!5e0!3m2!1str!2str!4v1" width="100%" height="200" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" action="php/contact.php" method="POST">
+          <div class="form-group"><label>Ad Soyad</label><input type="text" name="name" placeholder="Adınız Soyadınız" required /></div>
+          <div class="form-group"><label>Telefon</label><input type="tel" name="phone" placeholder="05XX XXX XX XX" required /></div>
+          <div class="form-group"><label>Mesaj</label><textarea name="message" rows="4" placeholder="Aracınızın durumunu kısaca anlatın..."></textarea></div>
+          <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
+          <button type="submit" class="btn-submit">Mesaj Gönder</button>
+          <div class="form-success" id="formSuccess">Mesajınız alındı, en kısa sürede dönüş yapacağız.</div>
+          <div class="form-error" id="formError">Hata oluştu, lütfen telefonla arayın.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container cta-inner">
+      <div>
+        <h2>Aracınız Yolda Kaldı mı?</h2>
+        <p>Van ve çevresinde 7/24 profesyonel yardım için hemen arayın.</p>
+      </div>
+      <a href="tel:+905426039032" class="btn-call btn-lg">0542 603 90 32</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-icon"><svg viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#1c2b4a"/><path d="M6 22h1.5M24.5 22H26M8 14l2-5h12l2 5M6 22v-6.5L8 14h16l2 .5V22M10 22a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm16 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" stroke="#c8a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="logo-text"><span class="logo-main" style="color:#fff">Burak Oto Kurtarma</span><span class="logo-sub" style="color:rgba(255,255,255,0.35)">Çekici · Van</span></div>
+      </a>
+      <p>© 2026 Burak Oto Kurtarma — Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <!-- FLOAT BUTTONS -->
+  <div class="float-btns">
+    <a href="tel:+905426039032" class="float-btn float-call" title="Hemen Ara">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+    <a href="https://wa.me/905426039032?text=Merhaba%2C%20ara%C3%A7%20kurtarma%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="float-btn float-wa" title="WhatsApp">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+    </a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

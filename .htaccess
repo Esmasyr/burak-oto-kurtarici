@@ -1,0 +1,48 @@
+# ===================================
+#  BURAK OTO KURTARICI — .htaccess
+#  Hosting'e yüklenince otomatik çalışır
+# ===================================
+
+# Klasör içeriğini gizle
+Options -Indexes
+
+# PHP klasörüne dışarıdan doğrudan erişimi engelle
+<Files "contact.php">
+  <If "%{REQUEST_URI} !~ m#^/php/contact\.php$#">
+    Require all denied
+  </If>
+</Files>
+
+# Karakter seti
+AddDefaultCharset UTF-8
+
+# Gzip — sayfa daha hızlı açılır
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/plain
+</IfModule>
+
+# Tarayıcı önbelleği — tekrar ziyarette hızlı yükler
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css              "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/png             "access plus 1 year"
+  ExpiresByType image/jpeg            "access plus 1 year"
+  ExpiresByType image/webp            "access plus 1 year"
+  ExpiresByType image/svg+xml         "access plus 1 year"
+  ExpiresByType image/x-icon          "access plus 1 year"
+</IfModule>
+
+# www olmadan çalış (SEO için)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# Güvenlik başlıkları
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
